@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+a.logo {
+  color: #4a4a4a;
+
+  &:hover {
+    color: #4a4a4a;
+  }
+}
+
+.navbar-item {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.panel {
+  width: 400px;
+  margin: 10px;
+}
+
+.columns {
+  flex: 1;
+
+  button {
+    margin: 10px;
+    display: block;
+  }
+}
+
+.panel-block {
+  input:checked + span {
+    text-decoration: line-through;
+  }
+}
